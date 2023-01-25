@@ -1,6 +1,0 @@
-SELECT  a.id_TA, a.nama_TA, a.nama_pekerjaan, a.id_exp, a.perusahaan, a.uraian, 
-a.posisitugas, a.statuskepegawaian, b.referensi, b.tahun, b.inter, b.jml_bln, b.pekerjaan,
-b.alamat, b.lokasi, b.instansi, b.nokontrak, b.nilai, b.mulai, b.selesai, b.id
-FROM tb_proyek_ta a INNER JOIN tb_proyek b
-WHERE a.id_exp = b.id 
-ORDER BY tahun 
